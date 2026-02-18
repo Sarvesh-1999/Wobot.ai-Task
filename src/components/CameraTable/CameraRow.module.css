@@ -10,7 +10,7 @@
 }
 
 .cell button {
-  width: 53px;
+  min-width: 53px;
   height: 23px;
   font-size: 11px;
   padding: 4px 8px;

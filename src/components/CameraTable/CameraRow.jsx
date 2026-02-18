@@ -2,7 +2,9 @@ import styles from "./CameraRow.module.css";
 const CameraRow = ({ camera, toggleStatus, deleteCamera }) => {
   return (
     <tr className={styles.row}>
-      <td className={styles.cell}>{camera.name}</td>
+      <td className={styles.cell}>
+        <input type="checkbox" name="checkbox" id="checkbox" /> {camera.name}
+      </td>
       <td className={styles.cell}>{camera.location}</td>
       <td className={styles.cell}>
         <button

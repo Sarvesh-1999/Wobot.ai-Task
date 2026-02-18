@@ -7,9 +7,16 @@ import Loader from "../Loader/Loader";
 const ITEMS_PER_PAGE = 10;
 
 const CameraTable = (props) => {
+  let {
+    cameras,
+    search,
+    loading,
+    toggleStatus,
+    deleteCamera,
+    locationFilter,
+    statusFilter,
+  } = props;
 
-  let { cameras, search, loading, toggleStatus, deleteCamera, locationFilter, statusFilter} = props;
-  
   const [page, setPage] = useState(1);
 
   let filteredCameras = cameras;
@@ -45,7 +52,10 @@ const CameraTable = (props) => {
       <table>
         <thead>
           <tr>
-            <th>NAME</th>
+            <th>
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              NAME
+            </th>
             <th>LOCATION</th>
             <th>STATUS</th>
             <th>ACTIONS</th>

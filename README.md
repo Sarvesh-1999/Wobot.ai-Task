@@ -3,6 +3,10 @@
 A frontend-only Camera Management Dashboard built using React.js.
 It allows users to view, search, filter, paginate, toggle status, and delete cameras without any backend dependency.
 
+# Deployed link
+
+- https://wobot-ai-task-plum.vercel.app/
+
 # Features
 
 - Camera listing in tabular format
@@ -79,10 +83,10 @@ src/
 # Setup Instructions
 
 1. Clone the repository
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/Sarvesh-1999/Wobot.ai-Task.git)
 
 2. Navigate to the project folder
-   cd camera-dashboard
+   cd Wobot.ai-Task
 
 3. Install dependencies
    npm install
