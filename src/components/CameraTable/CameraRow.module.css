@@ -1,0 +1,57 @@
+.cell {
+  padding: 14px 16px;
+  font-size: 13px;
+  color: #212121;
+  border-top: 1px solid #f0f0f0;
+  vertical-align: middle;
+}
+.row:hover {
+  background-color: #fafafa;
+}
+
+.cell button {
+  width: 53px;
+  height: 23px;
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+/* ===== DELETE BUTTON ===== */
+
+.cell:last-child button {
+  background: none;
+  color: #757575;
+  font-size: 12px;
+}
+
+.cell:last-child button:hover {
+  color: #212121;
+  text-decoration: underline;
+}
+
+.active {
+  background-color: rgba(2, 146, 98, 0.1);
+  color: #029262;
+}
+
+.inactive {
+  background-color: #eeeeee;
+  color: #616161;
+}
+
+@media (max-width: 768px) {
+  .cell {
+    padding: 12px;
+    font-size: 12px;
+  }
+
+  .cell button {
+    width: auto;
+    padding: 4px 10px;
+    font-size: 10px;
+  }
+}

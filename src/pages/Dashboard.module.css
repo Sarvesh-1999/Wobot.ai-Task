@@ -1,0 +1,44 @@
+.logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 34px;
+  /* border: 1px solid black; */
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 1024px) {
+  .header {
+    margin: 0 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo_container {
+    padding-top: 16px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    margin: 0 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo_container img {
+    height: 28px;
+  }
+
+  .header {
+    gap: 10px;
+  }
+}
