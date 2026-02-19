@@ -29,56 +29,49 @@ It allows users to view, search, filter, paginate, toggle status, and delete cam
 
 # Project Structure
 
+# Project Structure
+
+```
 src/
 ├── api/
-│ └── cameraApi.js
-│
+│   └── cameraApi.js
 ├── assets/
-│ ├── arrow_down.png
-│ ├── Location_icon.png
-│ ├── rss_feed.png
-│ └── search.png
-│
+│   ├── arrow_down.png
+│   ├── Location_icon.png
+│   ├── rss_feed.png
+│   └── search.png
 ├── components/
-│ ├── CameraTable/
-│ │ ├── CameraTable.jsx
-│ │ ├── CameraTable.module.css
-│ │ ├── CameraRow.jsx
-│ │ └── CameraRow.module.css
-│ │
-│ ├── FilterComp/
-│ │ ├── FilterComp.jsx
-│ │ └── FilterComp.module.css
-│ │
-│ ├── Header/
-│ │ ├── Header.jsx
-│ │ └── Header.module.css
-│ │
-│ ├── Loader/
-│ │ ├── Loader.jsx
-│ │ └── Loader.module.css
-│ │
-│ ├── Pagination/
-│ │ ├── Pagination.jsx
-│ │ └── Pagination.module.css
-│ │
-│ └── SearchBar/
-│ ├── SearchBar.jsx
-│ └── SearchBar.module.css
-│
+│   ├── CameraTable/
+│   │   ├── CameraTable.jsx
+│   │   ├── CameraTable.module.css
+│   │   ├── CameraRow.jsx
+│   │   └── CameraRow.module.css
+│   ├── FilterComp/
+│   │   ├── FilterComp.jsx
+│   │   └── FilterComp.module.css
+│   ├── Header/
+│   │   ├── Header.jsx
+│   │   └── Header.module.css
+│   ├── Loader/
+│   │   ├── Loader.jsx
+│   │   └── Loader.module.css
+│   ├── Pagination/
+│   │   ├── Pagination.jsx
+│   │   └── Pagination.module.css
+│   └── SearchBar/
+│       ├── SearchBar.jsx
+│       └── SearchBar.module.css
 ├── hooks/
-│ └── useCameras.js
-│
+│   └── useCameras.js
 ├── pages/
-│ ├── Dashboard.jsx
-│ └── Dashboard.module.css
-│
+│   ├── Dashboard.jsx
+│   └── Dashboard.module.css
 ├── utils/
-│ └── constants.js
-│
+│   └── constants.js
 ├── App.jsx
 ├── index.css
 └── main.jsx
+```
 
 # Setup Instructions
 
